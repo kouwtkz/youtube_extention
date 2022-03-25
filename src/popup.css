@@ -1,0 +1,53 @@
+body {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+}
+form {
+    margin: 0;
+    height: 100vh;
+}
+* {
+    color: black;
+    background-color: white;
+    font-size: 14px;
+    font-family: Roboto, Noto, sans-serif;
+}
+li {
+    cursor: default;
+}
+.button {
+    background-color: #fbfbf8;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #eef0e2;
+}
+form span,
+input,
+label,
+select {
+    vertical-align: middle;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+    padding: 8px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        color: white;
+        background-color: #181818;
+    }
+    .button {
+        background-color: #383838;
+    }
+    .button:hover {
+        background-color: #444444;
+    }
+}
